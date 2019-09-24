@@ -37,18 +37,17 @@ class Array3D:
 
     def get_item(self,rows,cols,depth):
         return self.__data[depth][rows][cols]
-
-def main():
-"""    
+    
+    
+""" 
+def main():  
     a3d = Array3D(4,3,2)
     a3d.to_String()
     print(a3d.get_num_rows())
     a3d.clearing('EASY')
     a3d.to_String()
-"""
 main()
 
-"""
 import xlrd
 for anio in range(1985,1019,1):
    archivo=xlrd.open_workbook(filename="./Precipitacion/"+str(anio)+'Precip.xls')
