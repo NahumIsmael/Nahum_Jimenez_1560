@@ -39,12 +39,13 @@ class Array3D:
         return self.__data[depth][rows][cols]
 
 def main():
+"""    
     a3d = Array3D(4,3,2)
     a3d.to_String()
     print(a3d.get_num_rows())
     a3d.clearing('EASY')
     a3d.to_String()
-
+"""
 main()
 
 """
