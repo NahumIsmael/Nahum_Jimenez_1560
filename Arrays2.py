@@ -56,7 +56,7 @@ class Array2D:
     
 
 def main():
-    a2d = Array2D(2,3)
+"""    a2d = Array2D(2,3)
     a2d.to_string()
     a2d.clearing(0)
     a2d.to_string()
@@ -68,5 +68,5 @@ def main():
     a2d.set_item(1,2,5)
     a2d.to_string()
     print(f"Christian saco en español {a2d.get_item (1,1)}")
-    
+"""    
 main()
